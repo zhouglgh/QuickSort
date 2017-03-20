@@ -3,9 +3,10 @@
 
 class Quick
 {
+	private:
+		void func(int *array,int head, int tail);
 	public:
 		int sort(int *array, int size);
-		void func(int *array,int head, int tail);
 	
 };
 #endif
